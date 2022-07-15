@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              padding: 0;
+              margin: 0;
+            }
+            
+            /* Estílo del header */
+            header {
+              background-color:rgb(214, 32, 32);
+              padding: 30px;
+              text-align: center;
+              font-size: 30px;
+              color: white;
+            }
+            
+            /* Crea dos columnas que floten una al lado de la otra */
+            nav {
+              background:rgb(214, 32, 32);
+              padding: 10px;
+            }
+            
+            /* Estílo de la lista dentro del menú */
+            nav ul {
+                list-style-type: none; 
+                padding: 0;
+                font-size: 20px;
+            }
+            
+            article {
+              float: left;
+              padding: 20px;
+              width: 100%;
+              background-color: #bfb4b4;
+
+            }
+            
+            /* Estílo del texto */
+            h1, h2, h3 {
+                color:black;
+                text-align: center;
+            }
+            
+            p {
+                text-align:left;
+
+            }
+            /* Estílo del footer */ 
+            footer {
+              background-color:rgb(214, 32, 32);
+              padding: 10px;
+              padding-top: 10px;
+              text-align: center;
+              color:black;
+            }
+            
+            /* Layout Responsivo - hace que las dos columnas se apilen una encima de la otra, en lugar de una al lado de la otra para pantallas pequeñas  */
+            @media (max-width: 600px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+        <title>Te lo Vendo</title>
+    </head>
+
+
+    <body>
+        <header>
+            <h1>Te lo Vendo Marketplace</h1>
+            <h4>Productos | Pedidos | Gestión de Clientes</h4>
+            <nav>
+                <ul>
+                    <li><a href="https://ecotiendanatural.cl/collections/belleza-natural">Artículos</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Seguimiento</a></li>
+                    <li><a href="#">Carro de Compras</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+
+            <article>
+                <div>
+                    <h4>"Quienes somos:"</h4>
+                    <p>La empresa <b>Te lo Vendo </b>Te lo Vendo es un
+                        emprendimiento de un grupo de
+                        jóvenes, quienes comercializan
+                        productos de calidad en línea. Actualmente, además de
+                        tomar
+                        sus pedidos vía telefónica y a través del correo
+                        electrónico, se encuentra en proyecto la realización de
+                        un
+                        sitio web responsivo para mejor atención de su
+                        clientela.
+                    </p>
+                    <h4>"Misión:"</h4>
+                    <p><b>Te lo Vendo </b> gestiona su cadena de valor a través
+                        de
+                        un
+                        modelo de negocio basado en cuatro pilares estratégicos:
+                        Gobierno Corporativo, Persona, Producto y Planeta, los
+                        que
+                        le han permitido integrar la sostenibilidad en su modelo
+                        de
+                        negocio. A eso se suman focos estratégicos que son la
+                        base
+                        que le permitirá contar con los recursos y estructuras
+                        para
+                        enfrentar los desafíos y capturar las oportunidades.
+                        Cencosud cumple con su misión de contribuir a mejorar la
+                        calidad de vida de sus clientes, colaboradores y la
+                        comunidad donde está inserta. Entiende que no solo
+                        crecerá
+                        como negocio, sino que apoyará a las comunidades donde
+                        está
+                        para afrontar los principales desafíos del cambio
+                        climático.
+                        Por ello, la Compañía está convencida de que el valor
+                        que
+                        crea debe traducirse en beneficio para todos sus grupos
+                        de
+                        interés.</p>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <div> Dirección: Agua Santa 50. Fono: (+569) 5566 8877 </div>
+        </footer>
+
+    </body>
+</html>
